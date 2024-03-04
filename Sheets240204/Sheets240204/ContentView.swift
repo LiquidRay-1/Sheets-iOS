@@ -20,8 +20,11 @@ struct ContentView: View {
                 isPresented = true
             }
         }
-        .fullScreenCover(isPresented: $isPresented, onDismiss: { isPresented = false }, content: {
-            ModalView(isPresented: $isPresented)
+//        .fullScreenCover(isPresented: $isPresented, onDismiss: { isPresented = false }, content: {
+//            ModalView(isPresented: $isPresented)
+//        })
+        .sheet(isPresented: $isPresented, onDismiss: { isPresented = false }, content: { ModalView(isPresented: $isPresented)
+                .presentationDetents([.large, .medium])
         })
     }
 }
