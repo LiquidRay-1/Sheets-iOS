@@ -11,6 +11,7 @@
 		3DFE4FC72B964F5600C1CF27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE4FC62B964F5600C1CF27 /* ContentView.swift */; };
 		3DFE4FC92B964F5700C1CF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE4FC82B964F5700C1CF27 /* Assets.xcassets */; };
 		3DFE4FCC2B964F5700C1CF27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE4FCB2B964F5700C1CF27 /* Preview Assets.xcassets */; };
+		3DFE4FD32B96518100C1CF27 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE4FD22B96518100C1CF27 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3DFE4FC62B964F5600C1CF27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DFE4FC82B964F5700C1CF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFE4FCB2B964F5700C1CF27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DFE4FD22B96518100C1CF27 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3DFE4FC42B964F5600C1CF27 /* Sheets240204App.swift */,
 				3DFE4FC62B964F5600C1CF27 /* ContentView.swift */,
+				3DFE4FD22B96518100C1CF27 /* ModalView.swift */,
 				3DFE4FC82B964F5700C1CF27 /* Assets.xcassets */,
 				3DFE4FCA2B964F5700C1CF27 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFE4FD32B96518100C1CF27 /* ModalView.swift in Sources */,
 				3DFE4FC72B964F5600C1CF27 /* ContentView.swift in Sources */,
 				3DFE4FC52B964F5600C1CF27 /* Sheets240204App.swift in Sources */,
 			);

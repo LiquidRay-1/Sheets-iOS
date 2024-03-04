@@ -5,17 +5,24 @@
 //  Created by dam2 on 4/3/24.
 //
 
+//FullScreenCover
+//Sheet
+
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isPresented: Bool = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Abrir"){
+                isPresented = true
+            }
         }
-        .padding()
+        .fullScreenCover(isPresented: $isPresented, onDismiss: { isPresented = false }, content: {
+            ModalView(isPresented: $isPresented)
+        })
     }
 }
 
